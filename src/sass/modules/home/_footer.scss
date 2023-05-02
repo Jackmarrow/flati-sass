@@ -1,0 +1,14 @@
+.footer{
+    background-color: $dark-color;
+    text-align: center;
+    padding: 1.5em 0;
+    p{
+        color: $text-color;
+        font-size:.7rem;
+        padding-inline: .5em;
+
+        @media(min-width: 900px){
+            font-size: .9rem;
+        }
+    } 
+}
